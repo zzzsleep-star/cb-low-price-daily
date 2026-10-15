@@ -1,0 +1,7 @@
+interface:
+  display_name: "每日可转债低价前十"
+  short_description: "按已复现的历史回测规则筛选每日可转债低价前十名单"
+  brand_color: "#BF0000"
+  default_prompt: "Use $cb-low-price-daily to refresh the data and output the latest top 10 low-price convertible bonds."
+policy:
+  allow_implicit_invocation: true
